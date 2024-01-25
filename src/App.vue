@@ -1,6 +1,7 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
 import Premios from './components/Premios.vue';
+import Musica from './components/Musica.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Premios from './components/Premios.vue';
       </video>
     </div>
     <Premios />
+    <Musica />
   </main>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <nav class=" w-full border-b md:border-0 md:static">
+    <nav class="sticky w-full border-b md:border-0 ">
       <div class="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div class="flex items-center justify-between py-3 md:py-5 md:block">
           <a href="javascript:void(0)">

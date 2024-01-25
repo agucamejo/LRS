@@ -1,5 +1,5 @@
 <template>
-    <section class="py-28">
+    <section class="py-16">
       <div class="max-w-screen-lg mx-auto px-4 md:px-8">
         <div class="max-w-md">
           <h1 class="text-white text-2xl font-extrabold sm:text-3xl">PREMIOS LRS</h1>
@@ -29,6 +29,7 @@
   import vip from '../assets/images/vip.png';
   import dupla from '../assets/images/dupla.png'
   import viewer from '../assets/images/viewer.png'
+  import meme from '../assets/images/meme.png'
 
   export default {
     name: 'OpenPositions',
@@ -56,6 +57,12 @@
           {
             company_icon: dupla,
             company_name: 'DUPLA DEL AÑO',
+            job_title: 'Premio a entregar',
+            job_description: 'Explicación de como ganar el premio',
+          },
+          {
+            company_icon: meme,
+            company_name: 'MEME DEL AÑO',
             job_title: 'Premio a entregar',
             job_description: 'Explicación de como ganar el premio',
           }
