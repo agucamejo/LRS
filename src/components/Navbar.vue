@@ -2,7 +2,7 @@
     <nav class="sticky w-full border-b md:border-0 ">
       <div class="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div class="flex items-center justify-between py-3 md:py-5 md:block">
-          <a href="javascript:void(0)">
+          <a href="">
             <img src="../assets/images/logo-LRS.png" width="80px" alt="LRS logo" />
           </a>
           <div class="md:hidden">
@@ -29,7 +29,7 @@
           </ul>
         </div>
         <div class="hidden md:inline-block">
-          <a href="https://www.twitch.tv/tukitag" class="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
+          <a href="https://www.twitch.tv/tukitag" target="_blank" class="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
             <img class="custom-img" src="../assets/images/twitch_.png" width="30"/>
             TUKITAG
           </a>
@@ -44,9 +44,9 @@
     data: function () {
       return {
         navigation: [
-          { title: "Comunidad", router: "/comunidad" },
-          { title: "Premios", router: "/premios" },
-          { title: "Música", router: "/musica" },
+          { title: "Comunidad", router: "#comunidad" },
+          { title: "Premios", router: "#premios" },
+          { title: "Música", router: "#musica" },
         ]
       }
     },

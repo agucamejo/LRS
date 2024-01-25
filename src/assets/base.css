@@ -28,3 +28,9 @@
   display: inline;
   margin-right: 5px;
 }
+
+iframe{
+ border-radius: 12px;
+ height: 400px;
+ width: 100%;
+}

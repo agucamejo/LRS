@@ -14,8 +14,8 @@ import Musica from './components/Musica.vue';
         <source src="./assets/video/video-background.mp4">
       </video>
     </div>
-    <Premios />
-    <Musica />
+    <Premios id="premios" />
+    <Musica id="musica" />
   </main>
 </template>
 
