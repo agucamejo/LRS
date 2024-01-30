@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 #videoContainer {
   top: 0;
   left: 0;
@@ -34,3 +38,6 @@ iframe{
  height: 400px;
  width: 100%;
 }
+
+
+
