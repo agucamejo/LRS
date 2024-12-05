@@ -1,14 +1,7 @@
 <template>
      <section class="pb-16">
       <div class="max-w-screen-lg mx-auto px-4 md:px-8">
-        <div class="max-w-md">
-          <h1 class="text-white text-2xl font-extrabold sm:text-3xl">COMUNIDAD</h1>
-        </div>
-        <div >
-            <h3 class="text-yellow-600 text-2xl font-semibold">Nuestros valores</h3>
-            <div class="flex justify-center">
-                <p class="text-white text-center text-lg my-3 w-4/5">Para nosotros la honestidad, la lealtad y el respeto son la clave. Hablamos de frente, estamos juntos en las buenas y en las malas, y nos tratamos con el respeto que cada uno merece. ¡Bienvenido a la familia LRS y sentite libre de ser vos mismo! 💜</p>
-            </div>
+        <div>
             <h3 class="text-yellow-600 text-2xl font-semibold">Streamers de la comunidad</h3>
             <div class="flex justify-center flex-wrap">
                 <div class="card m-3">
@@ -108,13 +101,13 @@
                         <div class="card-subtitle">Streamer de la LRS</div>
                     </div>
                     <ul class="card-social">
-                        <!-- <a href="https://twitter.com/TukitaGG" target="_blank">
+                        <a href="https://twitter.com/TukitaGG" target="_blank">
                             <li class="card-social__item">
                                 <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path fill="white" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
                                 </svg>
                             </li>
-                        </a> -->
+                        </a> 
                         <a href="https://www.instagram.com/matufrannco" target="_blank">
                             <li class="card-social__item">
                                 <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -132,179 +125,12 @@
                     </ul>
                 </div>
             </div>
-            <h3 class="text-yellow-600 text-2xl font-semibold">Redes sociales de la LRS</h3>
-            <p class="text-white text-lg my-3">Unite a los grupos de la comunidad y seguinos en las distintas redes sociales para mantenerte informado.</p>
-            <div class="flex justify-center">
-                <div class="main">
-                <div class="up">
-                    <a href="https://www.instagram.com/losrialshi/" target="_blank">
-                        <button class="card1">
-                            <svg class="instagram" fill-rule="nonzero" height="30px" width="30px" viewBox="0,0,256,256" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none" font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero"><g transform="scale(8,8)"><path d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z"></path></g></g></svg>
-                        </button>
-                    </a>
-                    <a href="https://www.tiktok.com/@losrialshi" target="_blank">
-                        <button class="card2">
-                            <svg class="tiktok" width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="nonzero" d="M16.708.027C18.453 0 20.188.016 21.921 0c.105 2.041.839 4.12 2.333 5.563c1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-.063-3.855-.463-5.6-1.291c-.76-.344-1.468-.787-2.161-1.24c-.009 3.896.016 7.787-.025 11.667c-.104 1.864-.719 3.719-1.803 5.255c-1.744 2.557-4.771 4.224-7.88 4.276c-1.907.109-3.812-.411-5.437-1.369C4.307 29.027 2.412 26.12 2.136 23a22.3 22.3 0 0 1-.016-1.984c.24-2.537 1.495-4.964 3.443-6.615c2.208-1.923 5.301-2.839 8.197-2.297c.027 1.975-.052 3.948-.052 5.923c-1.323-.428-2.869-.308-4.025.495a4.618 4.618 0 0 0-1.819 2.333c-.276.676-.197 1.427-.181 2.145c.317 2.188 2.421 4.027 4.667 3.828c1.489-.016 2.916-.88 3.692-2.145c.251-.443.532-.896.547-1.417c.131-2.385.079-4.76.095-7.145c.011-5.375-.016-10.735.025-16.093z"/>
-                            </svg>
-                        </button>
-                    </a>
-                </div>
-                <div class="down">
-                    <a href="https://chat.whatsapp.com/L8k5JmrCDir0cU1KQBcyeF" target="_blank">
-                        <button class="card3">
-                            <svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="whatsapp">
-                                <path d="M19.001 4.908A9.817 9.817 0 0 0 11.992 2C6.534 2 2.085 6.448 2.08 11.908c0 1.748.458 3.45 1.321 4.956L2 22l5.255-1.377a9.916 9.916 0 0 0 4.737 1.206h.005c5.46 0 9.908-4.448 9.913-9.913A9.872 9.872 0 0 0 19 4.908h.001ZM11.992 20.15A8.216 8.216 0 0 1 7.797 19l-.3-.18-3.117.818.833-3.041-.196-.314a8.2 8.2 0 0 1-1.258-4.381c0-4.533 3.696-8.23 8.239-8.23a8.2 8.2 0 0 1 5.825 2.413 8.196 8.196 0 0 1 2.41 5.825c-.006 4.55-3.702 8.24-8.24 8.24Zm4.52-6.167c-.247-.124-1.463-.723-1.692-.808-.228-.08-.394-.123-.556.124-.166.246-.641.808-.784.969-.143.166-.29.185-.537.062-.247-.125-1.045-.385-1.99-1.23-.738-.657-1.232-1.47-1.38-1.716-.142-.247-.013-.38.11-.504.11-.11.247-.29.37-.432.126-.143.167-.248.248-.413.082-.167.043-.31-.018-.433-.063-.124-.557-1.345-.765-1.838-.2-.486-.404-.419-.557-.425-.142-.009-.309-.009-.475-.009a.911.911 0 0 0-.661.31c-.228.247-.864.845-.864 2.067 0 1.22.888 2.395 1.013 2.56.122.167 1.742 2.666 4.229 3.74.587.257 1.05.408 1.41.523.595.19 1.13.162 1.558.1.475-.072 1.464-.6 1.673-1.178.205-.58.205-1.075.142-1.18-.061-.104-.227-.165-.475-.29Z"></path>
-                            </svg>
-                        </button>
-                    </a>
-                    <a href="https://discord.gg/KHtKhXxrtT" target="_blank">
-                        <button class="card4">
-                            <svg class="discord" xmlns="ht w.w3.org/2000/svg" viewBox="0 0 48 48" width="30px" height="30px">
-                                <path d="M40,12c0,0-4.585-3.588-10-4l-0.488,0.976C34.408,10.174,36.654,11.891,39,14c-4.045-2.065-8.039-4-15-4s-10.955,1.935-15,4c2.346-2.109,5.018-4.015,9.488-5.024L18,8c-5.681,0.537-10,4-10,4s-5.121,7.425-6,22c5.162,5.953,13,6,13,6l1.639-2.185C13.857,36.848,10.715,35.121,8,32c3.238,2.45,8.125,5,16,5s12.762-2.55,16-5c-2.715,3.121-5.857,4.848-8.639,5.815L33,40c0,0,7.838-0.047,13-6C45.121,19.425,40,12,40,12z M17.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C21,28.209,19.433,30,17.5,30z M30.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C34,28.209,32.433,30,30.5,30z"></path>
-                            </svg>
-                        </button>
-                    </a>
-                </div>
-                </div>
-            </div>
         </div>
       </div>
     </section>
 </template>
 
 <style>
-.main {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-}
-
-.up {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5em;
-}
-
-.down {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5em;
-}
-
-.card1 {
-  width: 90px;
-  height: 90px;
-  outline: none;
-  border: none;
-  background: white;
-  border-radius: 90px 5px 5px 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: .2s ease-in-out;
-}
-
-.tiktok{
-    margin-top: 1.2em;
-    margin-left: 1.6em;
-    
-}
-
-.instagram {
-    margin-top: 1.5em;
-    margin-left: 2.2em;
-    fill: #cc39a4;
-}
-
-.whatsapp {
-    margin-top: -0.7em;
-    margin-left: 2.2em;
-    fill: #00ff00;
-}
-
-.card2 {
-  width: 90px;
-  height: 90px;
-  outline: none;
-  border: none;
-  background: white;
-  border-radius: 5px 90px 5px 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: 0.2s ease-in-out;
-}
-
-
-.card3 {
-  width: 90px;
-  height: 90px;
-  outline: none;
-  border: none;
-  background: white;
-  border-radius: 5px 5px 5px 90px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: .2s ease-in-out;
-}
-
-.card4 {
-  width: 90px;
-  height: 90px;
-  outline: none;
-  border: none;
-  background: white;
-  border-radius: 5px 5px 90px 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: 0.2s ease-in-out;
-}
-
-.discord {
-  margin-top: -0.8em;
-  margin-left: 1.5em;
-  fill: #8c9eff;
-}
-
-.card3:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background-color: #00ff00;
-}
-
-.card3:hover .whatsapp {
-  fill: white;
-}
-
-.card1:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
-
-.card1:hover .instagram {
-  fill: white;
-}
-
-.card2:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background: #000000;
-  border: 1px solid #ff0050;
-}
-
-.card2:hover .tiktok{
-  fill:white;
-}
-
-.card4:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background-color: #8c9eff;
-}
-
-.card4:hover .discord {
-  fill: white;
-}
-
-
 .card {
  width: 190px;
  height: 254px;

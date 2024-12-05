@@ -2,10 +2,10 @@
     <section class="pb-16">
       <div class="max-w-screen-lg mx-auto px-4 md:px-8">
         <div class="max-w-md">
-          <h1 class="text-white text-2xl font-extrabold sm:text-3xl">PREMIOS LRS</h1>
+          <h1 class="text-white text-2xl font-bold sm:text-3xl">Premios a entregar</h1>
         </div>
         <ul class="mt-5 space-y-3">
-          <li v-for="(item, idx) in members" :key="idx" class="px-4 py-5 duration-150 hover:border-white hover:rounded-xl  hover:text-black hover:bg-violet-400">
+          <li v-for="(item, idx) in members" :key="idx" class="px-4 py-5 duration-150 hover:border-white hover:rounded-xl  hover:text-black hover:bg-violet-950 max-md:hover:bg-transparent">
             <a :href="item.path" class="space-y-3">
               <div class="flex items-center gap-x-3">
                 <div class="bg-white w-14 h-14 border rounded-full flex items-center justify-center"><img :src="item.company_icon" width="30" :alt="item.company_name" class="project-image"></div>
@@ -30,6 +30,7 @@
   import dupla from '../assets/images/dupla.png'
   import viewer from '../assets/images/viewer.png'
   import meme from '../assets/images/meme.png'
+  import hater from '../assets/images/hater.png'
 
   export default {
     name: 'OpenPositions',
@@ -55,16 +56,10 @@
             job_description: 'Será ganador/a la persona que más tiempo consumió el contenido del canal y más activo estuvo en el chat en 2024.',
           },
           {
-            company_icon: dupla,
-            company_name: 'DUPLA DEL AÑO',
+            company_icon: hater,
+            company_name: 'HATER DEL AÑO',
             job_title: 'Premio a definir',
-            job_description: 'Se le entregará el premio al colega que mejor se complemente con Tukita durante 2024 y ayude en la creación de contenido para la comunidad.',
-          },
-          {
-            company_icon: meme,
-            company_name: 'MEME DEL AÑO',
-            job_title: 'Premio a definir',
-            job_description: 'Obtendrá la distinción a "Meme del año" la persona que realice el video o imagen más gracioso de 2024.',
+            job_description: 'Se le entregará el premio al espectador que más hate haya tirado a Tukita durante 2024.',
           }
         ]
       }

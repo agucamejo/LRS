@@ -1,5 +1,5 @@
 <template>
-    <nav class="sticky w-full border-b md:border-0 ">
+    <nav class="sticky w-full border-b md:border-0 z-50">
       <div class="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div class="flex items-center justify-between py-3 md:py-5 md:block">
           <a href="">
@@ -28,10 +28,10 @@
             </li>
           </ul>
         </div>
-        <div class="hidden md:inline-block">
-          <a href="https://www.twitch.tv/tukitag" target="_blank" class="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
-            <img class="custom-img" src="../assets/images/twitch_.png" width="30"/>
-            TUKITAG
+        <div class="hidden md:flex">
+          <a href="https://kick.com/tukita" target="_blank" class="flex py-3 px-4 gap-2 text-black bg-[#53FC18] hover:bg-[#2fff2f] rounded-md shadow">
+            <img class="custom-img" src="../assets/images/kick.png" width="20"/>
+            <p class="font-semibold">TUKITA</p>
           </a>
         </div>
       </div>
@@ -44,9 +44,10 @@
     data: function () {
       return {
         navigation: [
-          { title: "Comunidad", router: "#comunidad" },
+          // { title: "Comunidad", router: "#comunidad" },
           { title: "Premios", router: "#premios" },
-          { title: "Música", router: "#musica" },
+          { title: "Eventos", router: "#evento" },
+          // { title: "Música", router: "#musica" }
         ]
       }
     },
